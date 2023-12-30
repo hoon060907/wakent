@@ -7,7 +7,7 @@ const Header = () => {
     const [open, setOpen] = useState(false);
     return (
         <header>
-            <a href="#"><img src="https://blog.kakaocdn.net/dn/bZnhsl/btsCUzjdJvF/DFKsiOhgk86Y7hsoPyKv0k/tfile.svg" alt="logo" width="70px" /></a>
+            <a href="#"><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbZnhsl%2FbtsCUzjdJvF%2FDFKsiOhgk86Y7hsoPyKv0k%2Ftfile.svg" alt="logo" width="70px" /></a>
             <ul className={classNames('header_navbar', {open})}>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#artists">ARTISTS</a></li>
