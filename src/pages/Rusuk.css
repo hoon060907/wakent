@@ -1,0 +1,43 @@
+.rusuk_logo {
+    color: #fff;
+}
+.rusuk_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.rusuk {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.rusuk img,
+.rusuk h1,
+.rusuk p {
+    margin-top: 10px;
+    width: 50%;
+}
+.rusuk_album {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rusuk_album h2 {
+    margin-top: 20px;
+}
+@media (max-width: 778px) {
+    .rusuk_body {
+        flex-direction: column;
+    }
+    .rusuk img {
+        width: 100%;
+    }
+}

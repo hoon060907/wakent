@@ -1,0 +1,118 @@
+.main_banner {
+    height: fit-content;
+}
+
+.about {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+.about_logo {
+  margin-bottom: 100px;
+}
+.about_text {
+  color: #fff;
+}
+.about span {
+  background: -webkit-linear-gradient(#BBE9BB, #34BAA2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.artists {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  background: #fff;
+}
+.artists_text {
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 70px;
+}
+.artists_imgs {
+  display: flex;
+  justify-content: center;
+}
+.artists_imgs img {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.artists_rusuk {
+  transform: translate(-15px, 270px);
+  height: 335px;
+}
+.artists_rusuk:hover {
+  transform: translate(-15px, 270px) scale(105%);
+}
+.artists_isedol {
+  transform: translateX(15px);
+  z-index: 500;
+}
+.artists_isedol:hover {
+  transform: translateX(15px) scale(105%);
+}
+
+.staffs {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  color: #fff;
+}
+.staffs_text {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 200px;
+}
+.staffs_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.staffs_profile {
+  width: 250px;
+  margin: 0 100px;
+}
+.staffs_profile_img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 5px solid #fff;
+  border-top: 5px solid #fff;
+}
+.staffs_profile h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+.staffs_profile h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+.staffs_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+.staffs_link img {
+  width: 30px;
+  margin: 5px;
+}
+@media (max-width: 916px) {
+  .artists_rusuk img {
+    width: 80%;
+  }
+  .artists_isedol img {
+    width: 80%;
+  }
+}
+@media (max-width: 612px) {
+  .about_logo img {
+    width: 80%;
+  }
+}

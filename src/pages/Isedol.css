@@ -1,0 +1,243 @@
+.isedol_header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2b2b2b;
+    padding: 18px 12%;
+}
+.isedol_header_navbar {
+    display: flex;
+}
+.isedol_header_navbar a:hover {
+    color:#ff72a1;
+}
+.isedol_header_navbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isedol_header_navbar a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+}
+.isedol_header_main {
+    display: flex;
+    align-items: center;
+}
+.isedol_header_main a {
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.isedol_header_menu_icon {
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .isedol_header {
+        padding: 14px 2%;
+    }
+    .isedol_header_navbar a {
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+@media (max-width: 810px) {
+    .isedol_header_menu_icon {
+        display: block;
+    }
+    .isedol_header_navbar {
+        display: none;
+    }
+    .isedol_header_navbar a {
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+    }
+    .isedol_header_navbar.open {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 270px;
+        background: #2B2B2B;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 0 0 0 10px;
+    }
+}
+
+.isedol_banner {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+.isedol_banner_img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.isedol_banner_logo {
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+}
+
+.isedol_info {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 130px;
+    background: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+@media (max-width: 932px) {
+
+    .isedol_info {
+        flex-wrap: wrap;
+    }
+}
+
+.isedol_info_img {
+    display: block;
+    width: 500px;
+    border: 3px solid #E54172;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (max-width: 520px) {
+    .isedol_info_img {
+        width: 90%;
+    }
+}
+.isedol_info_info {
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.isedol_info_info h1 {
+    color: #E54172;
+    border-bottom: 3px solid #E54172;
+}
+.isedol_info_info h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.isedol_info_info h4 {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.isedol_info_info img {
+    width: 30px;
+}
+.isedol_info_info ul {
+    margin-top: 50px;
+}
+.isedol_info_info li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.isedol_members {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 130px;
+    background: #292929;
+    color: #fff;
+}
+.isedol_members > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.isedol_members ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.isedol_members ul li {
+    margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border: 3px solid black;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.isedol_members ul li.active {
+    background: #E54172;
+    transform: scale(130%);
+}
+.member_detail {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.member_detail iframe {
+    width: 700px;
+    height: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.member_info img {
+    width: 30px;
+}
+.member_info div {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.member_info div a {
+    margin-right: 10px;
+}
+.member_info > h1 {
+    font-size: 48px;
+}
+.member_info > h2 {
+    margin: 20px 0;
+}
+
+.isedol_discography {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 130px;
+    background: #fff;
+}
+.isedol_discography h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.isedol_discography ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.isedol_discography ul img {
+    width: 300px;
+    margin: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.isedol_discography ul li:hover {
+    transform: scale(105%);
+}
