@@ -7,17 +7,17 @@ const Home = () => {
         <>
       <Header />
       <div className='main_banner'>
-        <img src="images/main_img1.png" alt="" width="100%" />
+        <img src="https://blog.kakaocdn.net/dn/XcusT/btsCODtIRP7/dkdE2SJnyfc1gOSUTvYl3K/img.png" alt="" width="100%" />
       </div>
       <div className='about' id='about'>
-        <div className='about_logo'><img src="images/wak_logo.svg" alt="" width="450px" /></div>
+        <div className='about_logo'><img src="https://blog.kakaocdn.net/dn/bZnhsl/btsCUzjdJvF/DFKsiOhgk86Y7hsoPyKv0k/tfile.svg" alt="" width="450px" /></div>
         <h1 className='about_text'><span>WAK Entertainment </span>와<br />새로운 음악의 차원을 탐험하세요</h1>
       </div>
       <div className='artists' id='artists'>
         <h1 className='artists_text'>ARTISTS</h1>
         <div className='artists_imgs'>
-          <Link to='/isedol' className='artists_isedol'><img src="images/isedol_profile.svg" alt="" /></Link>
-          <Link to='/rusuk' className='artists_rusuk'><img src="images/rusuk_profile.svg" alt="" /></Link>
+          <Link to='/isedol' className='artists_isedol'><img src="https://blog.kakaocdn.net/dn/MPaFa/btsCP6CqDeH/zQ9kJJv3jKgz0P0s0gloNk/tfile.svg" alt="" /></Link>
+          <Link to='/rusuk' className='artists_rusuk'><img src="https://blog.kakaocdn.net/dn/Iit88/btsCTyychui/8H7KvZkTc2qBZIck4p1nY1/tfile.svg" alt="" /></Link>
         </div>
       </div>
       <div className="staffs" id='staffs'>
