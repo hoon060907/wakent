@@ -37,7 +37,7 @@ const Home = () => {
             <h1>마네쟈</h1>
             <h2>뢴트게늄</h2>
             <div className='staffs_links'>
-              <a href="https://www.youtube.com/channel/UCSWG-hKh0u9tFCoZMRfCfuA" className='staffs_link' target='_blank'><img src="images/youtube.svg" alt="" /></a>
+              <a href="https://www.youtube.com/channel/UCSWG-hKh0u9tFCoZMRfCfuA" className='staffs_link' target='_blank'><img src="https://blog.kakaocdn.net/dn/J40IB/btsCRhKpOXj/O9Pj8uNk1Q4UrcnpVAnm9k/img.webp" alt="" /></a>
               <a href="https://www.twitch.tv/111roentgenium" className='staffs_link' target='_blank'><img src="images/twitch.svg" alt="" /></a>
             </div>
           </div>
