@@ -1,35 +1,30 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header"
 import './Home.css';
-import { main_img1 } from "../images/main_img1.png";
-import { wak_logo } from "../images/wak_logo.svg";
-import { isedol_profile } from "../images/isedol_profile.svg";
-import { rusuk_profile } from "../images/rusuk_profile.svg";
-import { wakgood_profile } from "../images/wakgood_profile.webp";
 
 const Home = () => {
     return (
         <>
       <Header />
       <div className='main_banner'>
-        <img src={main_img1} alt="" width="100%" />
+        <img src="images/main_img1.png" alt="" width="100%" />
       </div>
       <div className='about' id='about'>
-        <div className='about_logo'><img src={wak_logo} alt="" width="450px" /></div>
+        <div className='about_logo'><img src="images/wak_logo.svg" alt="" width="450px" /></div>
         <h1 className='about_text'><span>WAK Entertainment </span>와<br />새로운 음악의 차원을 탐험하세요</h1>
       </div>
       <div className='artists' id='artists'>
         <h1 className='artists_text'>ARTISTS</h1>
         <div className='artists_imgs'>
-          <Link to='/isedol' className='artists_isedol'><img src={isedol_profile} alt="" /></Link>
-          <Link to='/rusuk' className='artists_rusuk'><img src={rusuk_profile} alt="" /></Link>
+          <Link to='/isedol' className='artists_isedol'><img src="images/isedol_profile.svg" alt="" /></Link>
+          <Link to='/rusuk' className='artists_rusuk'><img src="images/rusuk_profile.svg" alt="" /></Link>
         </div>
       </div>
       <div className="staffs" id='staffs'>
         <h1 className='staffs_text'>STAFFS</h1>
         <div className='staffs_content'>
           <div className="staffs_profile">
-            <img src={wakgood_profile} alt="" className='staffs_profile_img' />
+            <img src="images/wakgood_profile.webp" alt="" className='staffs_profile_img' />
             <h1>사장</h1>
             <h2>우왁굳</h2>
             <div className='staffs_links'>
