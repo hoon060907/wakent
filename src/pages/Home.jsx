@@ -24,7 +24,7 @@ const Home = () => {
         <h1 className='staffs_text'>STAFFS</h1>
         <div className='staffs_content'>
           <div className="staffs_profile">
-            <img src="images/wakgood_profile.webp" alt="" className='staffs_profile_img' />
+            <img src="https://i.namu.wiki/i/wjSHYGe82EEXsL33iOrRH5x7sCpp2EScLECiorXm6e0SoacG_OQsJyl859nr3duQDwuRwGlA8XFI0gP341_DLbfsjidfeYOc1vZ9izqU4qJWHFJYxOtNsDc-6kTZSSbexIrslbUjzmIhMl3KUpRNjg.webp" alt="" className='staffs_profile_img' />
             <h1>사장</h1>
             <h2>우왁굳</h2>
             <div className='staffs_links'>
