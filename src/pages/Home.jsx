@@ -28,17 +28,17 @@ const Home = () => {
             <h1>사장</h1>
             <h2>우왁굳</h2>
             <div className='staffs_links'>
-              <a href="https://www.youtube.com/user/woowakgood" className='staffs_link' target='_blank'><img src="images/youtube.svg" alt="" /></a>
-              <a href="https://www.twitch.tv/woowakgood" className='staffs_link' target='_blank'><img src="images/twitch.svg" alt="" /></a>
+              <a href="https://www.youtube.com/user/woowakgood" className='staffs_link' target='_blank'><img src="https://blog.kakaocdn.net/dn/cZQbOQ/btsCVHafkEA/PQgTpbV5SLXExHOmbLPuJk/tfile.svg" alt="" /></a>
+              <a href="https://www.twitch.tv/woowakgood" className='staffs_link' target='_blank'><img src="https://blog.kakaocdn.net/dn/Sq4Cf/btsCLoxhrRL/wjchKgtXJAnXMerZfsKHJk/tfile.svg" alt="" /></a>
             </div>
           </div>
           <div className="staffs_profile">
-            <img src="images/roent_profile.webp" alt="" className='staffs_profile_img' />
+            <img src="https://blog.kakaocdn.net/dn/J40IB/btsCRhKpOXj/O9Pj8uNk1Q4UrcnpVAnm9k/img.webp" alt="" className='staffs_profile_img' />
             <h1>마네쟈</h1>
             <h2>뢴트게늄</h2>
             <div className='staffs_links'>
-              <a href="https://www.youtube.com/channel/UCSWG-hKh0u9tFCoZMRfCfuA" className='staffs_link' target='_blank'><img src="https://blog.kakaocdn.net/dn/J40IB/btsCRhKpOXj/O9Pj8uNk1Q4UrcnpVAnm9k/img.webp" alt="" /></a>
-              <a href="https://www.twitch.tv/111roentgenium" className='staffs_link' target='_blank'><img src="images/twitch.svg" alt="" /></a>
+              <a href="https://www.youtube.com/channel/UCSWG-hKh0u9tFCoZMRfCfuA" className='staffs_link' target='_blank'><img src="https://blog.kakaocdn.net/dn/cZQbOQ/btsCVHafkEA/PQgTpbV5SLXExHOmbLPuJk/tfile.svg" alt="" /></a>
+              <a href="https://www.twitch.tv/111roentgenium" className='staffs_link' target='_blank'><img src="https://blog.kakaocdn.net/dn/Sq4Cf/btsCLoxhrRL/wjchKgtXJAnXMerZfsKHJk/tfile.svg" alt="" /></a>
             </div>
           </div>
         </div>
