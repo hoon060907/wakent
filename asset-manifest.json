@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wakent/static/css/main.e37d1c30.css",
-    "main.js": "/wakent/static/js/main.0d8d675b.js",
+    "main.js": "/wakent/static/js/main.d8e001d1.js",
     "static/js/787.270795c7.chunk.js": "/wakent/static/js/787.270795c7.chunk.js",
     "index.html": "/wakent/index.html",
     "main.e37d1c30.css.map": "/wakent/static/css/main.e37d1c30.css.map",
-    "main.0d8d675b.js.map": "/wakent/static/js/main.0d8d675b.js.map",
+    "main.d8e001d1.js.map": "/wakent/static/js/main.d8e001d1.js.map",
     "787.270795c7.chunk.js.map": "/wakent/static/js/787.270795c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e37d1c30.css",
-    "static/js/main.0d8d675b.js"
+    "static/js/main.d8e001d1.js"
   ]
 }
