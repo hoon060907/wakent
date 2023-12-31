@@ -7,7 +7,16 @@ const Home = () => {
         <>
       <Header />
       <div className='main_banner'>
-        <img src="https://blog.kakaocdn.net/dn/XcusT/btsCODtIRP7/dkdE2SJnyfc1gOSUTvYl3K/img.png" alt="" width="100%" />
+        <div className="slider">
+          <img id="slide-1" src="https://blog.kakaocdn.net/dn/XcusT/btsCODtIRP7/dkdE2SJnyfc1gOSUTvYl3K/img.png" alt="" width="100%" />
+          <img id="slide-2" src="https://blog.kakaocdn.net/dn/byqFE5/btsCLpCYngh/GpXFBwki4kre5auAK6HYZ0/img.png" alt="" width="100%" />
+          <img id="slide-3" src="https://blog.kakaocdn.net/dn/c7awJK/btsCTCAxxBq/k0Z651InnkyJkkgYn7bZak/img.png" alt="" width="100%" />
+        </div>
+        <div className="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
       </div>
       <div className='about' id='about'>
         <div className='about_logo'><img src="https://blog.kakaocdn.net/dn/bZnhsl/btsCUzjdJvF/DFKsiOhgk86Y7hsoPyKv0k/tfile.svg" alt="" width="450px" /></div>
