@@ -12,6 +12,7 @@ header {
 }
 .header_navbar {
     display: flex;
+    align-items: center;
 }
 .header_navbar a {
     color: #fff;
@@ -22,6 +23,7 @@ header {
 }
 .header_navbar a:hover {
     color:#34BAA2;
+    font-size: 1.5rem;
 }
 .header_main {
     display: flex;

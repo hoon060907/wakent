@@ -12,9 +12,18 @@
 }
 .isedol_header_navbar {
     display: flex;
+    align-items: center;
+}
+.isedol_header_navbar a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
 }
 .isedol_header_navbar a:hover {
     color:#ff72a1;
+    font-size: 1.5rem;
 }
 .isedol_header_navbar li {
     display: flex;
@@ -96,7 +105,10 @@
 .isedol_banner_logo {
     position: absolute;
     z-index: 1;
-    width: 30%;
+    width: 25%;
+}
+.isedol_banner_logo:hover {
+    transform: scale(110%);
 }
 
 .isedol_info {
@@ -148,6 +160,7 @@
 }
 .isedol_info_info ul {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .isedol_info_info li {
     display: inline;
@@ -160,6 +173,7 @@
     padding-top: 130px;
     background: #292929;
     color: #fff;
+    overflow: hidden;
 }
 .isedol_members > h1 {
     text-align: center;
@@ -191,12 +205,27 @@
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    animation: detail 0.5s ;
 }
+
+@keyframes detail {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
 .member_detail iframe {
     width: 700px;
     height: 400px;
     margin-right: 50px;
     margin-left: 50px;
+}
+.member_info {
+    margin: 50px;
 }
 .member_info img {
     width: 30px;
@@ -207,13 +236,27 @@
     align-items: center;
 }
 .member_info div a {
-    margin-right: 10px;
+    margin-right: 20px;
+}
+.member_info div a:hover {
+    transform: scale(120%);
 }
 .member_info > h1 {
     font-size: 48px;
 }
 .member_info > h2 {
+    font-size: 32px;
     margin: 20px 0;
+}
+.member_info > h3 {
+    color: #a8a8a8;
+    font-size: 50px;
+    font-style: italic;
+}
+@media (max-width: 800px) {
+    .member_info > h3{
+        font-size: 24px;
+    }
 }
 
 .isedol_discography {
@@ -225,6 +268,7 @@
 .isedol_discography h1 {
     text-align: center;
     margin-bottom: 30px;
+    color: #E54172;
 }
 .isedol_discography ul {
     width: 100%;
