@@ -3,13 +3,18 @@
 }
 .rusuk_body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    color: #fff;
+    color: #2d2d2d;
+    min-height: 100vh;
+    background-color: #fff;
+    background-image: url('https://blog.kakaocdn.net/dn/wM0lX/btsCTBn7ZhI/H6nW5Wk9PT2UxqkSyxbgz1/tfile.svg');
 }
 
 .rusuk {
+    margin-top: 100px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -20,8 +25,12 @@
 .rusuk img,
 .rusuk h1,
 .rusuk p {
-    margin-top: 10px;
+    margin-bottom: 10px;
     width: 50%;
+    background: #fff;
+}
+.rusuk p {
+    color: #686868;
 }
 .rusuk_album {
     width: 50%;
@@ -30,8 +39,12 @@
     align-items: center;
     flex-direction: column;
 }
+.rusuk_album img:hover {
+    transform: scale(110%);
+}
 .rusuk_album h2 {
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 @media (max-width: 778px) {
     .rusuk_body {
