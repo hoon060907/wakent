@@ -186,7 +186,7 @@
     flex-wrap: wrap;
 }
 .isedol_members ul li {
-    margin-bottom: 50px;
+    margin: 30px;
     width: 150px;
     height: 150px;
     background: #fff;
