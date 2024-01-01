@@ -1,5 +1,5 @@
 .isedol_header {
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #2b2b2b;
+    background: linear-gradient(#923056, #79254500);
     padding: 18px 12%;
 }
 .isedol_header_navbar {
@@ -22,7 +22,8 @@
     margin: 0px 30px;
 }
 .isedol_header_navbar a:hover {
-    color:#ff72a1;
+    color:#ff3ea8;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-size: 1.5rem;
 }
 .isedol_header_navbar li {
@@ -80,11 +81,11 @@
         top: 100%;
         right: 0;
         width: 270px;
-        background: #2B2B2B;
+        background: #00000088;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        border-radius: 0 0 0 10px;
+        border-radius: 10px 0 0 10px;
     }
 }
 
