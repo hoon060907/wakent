@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div className='about' id='about'>
         <div className='about_logo'><img src="https://blog.kakaocdn.net/dn/bZnhsl/btsCUzjdJvF/DFKsiOhgk86Y7hsoPyKv0k/tfile.svg" alt="" width="450px" /></div>
-        <h1 className='about_text'><span>WAK Entertainment </span>와<br />새로운 음악의 차원을 탐험하세요</h1>
+        <h1 className='about_text'><span>WAK Entertainment </span>와<br />차원을 넘어 새로운 음악의 세계를 탐험하세요</h1>
       </div>
       <div className='artists' id='artists'>
         <h1 className='artists_text'>ARTISTS</h1>
